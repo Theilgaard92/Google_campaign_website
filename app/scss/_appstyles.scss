@@ -1,0 +1,24 @@
+/* all app scss styles here */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+
+	.sub-nav {
+		line-height: rem-calc(72);
+		a {
+			color:#757575;
+		}
+		.right-nav {
+			float:right;
+			.order-now {
+				color: white;
+				// margin-right: 1rem;
+			}
+		}
+		.left-nav {
+			margin-left: rem-calc(16);
+			.logo {
+				display: none;
+			}
+		}
+	}
+
