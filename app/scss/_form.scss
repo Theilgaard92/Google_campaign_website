@@ -1,0 +1,16 @@
+.glass-form {
+	width: 100%;
+	height: 90%;
+	background: url(../images/form-bg.jpg) no-repeat center center fixed;
+ 	background-size: cover;
+ 	.form-box {
+ 		background: white;
+ 		max-width: 1048px;
+ 		margin: 0 auto;
+ 		padding: 2em;
+ 		form {
+ 			margin: 2rem 0;
+ 		}
+ 	}
+}
+
