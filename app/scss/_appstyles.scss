@@ -2,6 +2,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 $secondary-color: #34a7ff;
+h2{
+	line-height: 0.7;
+}
 
 .button {
 	border: 1px solid $secondary-color;
@@ -13,6 +16,11 @@ $secondary-color: #34a7ff;
 		color: $secondary-color !important;
 		}
 }
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
 	background-color: #fff;
 	color: #737373;
@@ -23,7 +31,8 @@ $secondary-color: #34a7ff;
 }
 .sub-nav dt a, .sub-nav dd a, .sub-nav li a {
 	padding: 0px;
-	margin-left: 1rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
 	padding: 0px;
@@ -34,14 +43,13 @@ $secondary-color: #34a7ff;
 }
 	.sub-nav {
 		line-height: rem-calc(72);
+		margin-right: auto;
+		margin-left: auto;		
 		.right-nav {
-			margin-right: rem-calc(26+16);
 			float:right;
 		}
 		.left-nav {
-			margin-left: rem-calc(26);
 			.google-logo{
-				// margin-top: -3px;
 			}
 			.logo {
 				display: none;
@@ -49,34 +57,90 @@ $secondary-color: #34a7ff;
 		}
 	}
 .part1 {
-	width: 100%;
+	position: relative;
+	top: 5%;
 	height: 90%;
-	border: 1px solid $secondary-color;
-	background:url('../images/cat.jpg');
+	max-height: 700px;
+	.youtube{
+		padding-left: 16px;
+	}
+
 }
 .part2 {
-	width: 100%;
 	height: 90%;
-	border: 1px solid $secondary-color;
-	background:url('../images/cage1.jpg');
+	// background:url('../images/cage1.jpg') no-repeat center center;
+	// background-size: cover;
+	max-height: 700px;
+	.slide {
+		max-height: 680px;
+	}
+	.orbit-bullets {
+		display: none;
+	}
+	.orbit-slide-number {
+		display: none;
+	}
+	.orbit-prev{
+		display: none;
+	}
+	.orbit-next{
+		display: none;
+	}
+	.part2-nav {
+		text-align: center;
+		position: relative;
+		z-index: 2;
+		top: 90%;
+	}
+	.bg-slide {
+		position: relative;;
+		z-index: 1;
+	}
+	.part2-content{
+		h3{
+			color: white;
+			line-height: 1;
+
+		}
+		position: absolute;
+		z-index: 99;
+		top: 10%;
+		// right: 10%;
+		color: white;
+		// background-color: rgba(0,0,0,0.3)
+
+	}
+	.button {
+	font-size: 0.95rem;
+	color: #737373 !important;
+	border: 1px solid white;
+	background-color: rgba(255,255,255,0.8);
+	padding: 7px 35px !important;
+	&:hover {
+		background-color: rgba(255,255,255,0.4);
+		border: 1px solid white;
+		color: #eee !important;
+		}
+}
+
 }
 .part3 {
 	width: 100%;
 	height: 90%;
-	border: 1px solid $secondary-color;
-	background:url('../images/murray.jpg');
+	background:url('../images/cage.jpg') no-repeat center center;
+	max-height: 700px;
 }
 .part4 {
 	width: 100%;
 	height: 90%;
-	border: 1px solid $secondary-color;
-	background:url('../images/cage.jpg');
+	background:url('../images/cage.jpg') no-repeat center center;
+	max-height: 700px;
 }
 
 .footer {
 	line-height: rem-calc(72);
-	padding-left: rem-calc(26+16);
-	padding-right: rem-calc(26+16);
+	padding-left: rem-calc(16);
+	padding-right: rem-calc(16);
 	.fa {
 		margin-right: 6px;
 		color: #d3d3d3;

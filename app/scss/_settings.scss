@@ -34,6 +34,7 @@
 // $include-xl-html-grid-classes: false;
 
 // $row-width: rem-calc(1000);
+$row-width: rem-calc(1300);
 // $total-columns: 12;
 
 // Global
@@ -134,6 +135,7 @@ $global-radius: 4px;
 // $h1-font-size: rem-calc(44);
 // $h2-font-size: rem-calc(37);
 // $h3-font-size: rem-calc(27);
+$h3-font-size: rem-calc(30);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
@@ -661,6 +663,7 @@ $bg: $secondary-color;
 // $include-html-magellan-classes: $include-html-classes;
 
 // $magellan-bg: #fff;
+$magellan-bg: rgba(255,255,255,1);
 // $magellan-padding: 10px;
 $magellan-padding: 0px 0px 0px 0px;
 
@@ -758,10 +761,12 @@ $magellan-padding: 0px 0px 0px 0px;
 // We use these to controls the style of slide numbers
 // $orbit-slide-number-bg: rgba(0,0,0,0);
 // $orbit-slide-number-font-color: #fff;
+
 // $orbit-slide-number-padding: rem-calc(5);
 
 // We use these to controls the css animation
 // $orbit-animation-speed: 500ms;
+
 // $orbit-animation-ease: ease-in-out;
 
 // Hide controls on small
