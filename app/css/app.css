@@ -3507,7 +3507,7 @@ dialog[open] {
       background: #008CBA;
       padding: 0.1875rem 1rem;
       cursor: default;
-      color: #fff; }
+      color: red; }
       .sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
         background: #007ba0; }
 
@@ -5071,7 +5071,8 @@ h2 {
 .button {
   border: 1px solid #34a7ff;
   background-color: #34a7ff;
-  padding: 5px 16px !important; }
+  padding: 5px 16px !important;
+  line-height: 1.8em; }
   .button:hover {
     background-color: white;
     border: 1px solid #34a7ff;
@@ -5137,7 +5138,6 @@ h2 {
     color: #eee !important;
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0.4);
-    padding: 7px 35px !important;
     margin-left: -5px; }
     .part2 .button:hover {
       background-color: rgba(255, 255, 255, 0.8);
@@ -5177,6 +5177,12 @@ h2 {
   .part4 .part4-content {
     position: relative;
     top: 10%; }
+
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  background: rgba(255, 255, 255, 0.9); }
+
+.sub-nav dd.active a {
+  background: none; }
 
 .footer {
   line-height: 4.5rem;

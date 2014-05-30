@@ -22,19 +22,26 @@
 
 <!--   navigation bar -->
     <div data-magellan-expedition="fixed">
+      <div class="row">
       <dl class="sub-nav">
-        <section class="left-nav">
-          <dd data-magellan-arrival="glass"><a href="index.html"><img class="google-logo" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85"><h1 class="logo">Google Glass</h1></a></dd>
-        </section>
-        <section class="right-nav">
-          <dd data-magellan-arrival="glass"><a href="#glass">What is Glass</a></dd>
-          <dd data-magellan-arrival="features"><a href="#features">Features</a></dd>
-          <dd data-magellan-arrival="develop"><a href="#develop">Develop for Glass</a></dd>
-          <dd data-magellan-arrival="spec"><a href="#spec">Specifications</a></dd>
-          <dd data-magellan-arrival="js"><a class="button radius small" href="#js">Order now</a></dd>
-        </section>
+        <dd data-magellan-arrival="glass"><a href="index.html"><img id="glass-logo medium-7" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85" alt="Google Glass logo"></a></dd>
+        <div class="large-offset-5 hide-for-medium-down">
+          <dd data-magellan-arrival="glass"><a href="#glass">Hvad er Google Glass</a></dd>
+          <dd data-magellan-arrival="features"><a href="#features">Funktioner</a></dd>
+          <dd data-magellan-arrival="develop"><a href="#develop">Udvikler</a></dd>
+          <dd data-magellan-arrival="spec"><a href="#spec">Specifikationer </a></dd>
+          <dd data-magellan-arrival="js"><a class="button radius" href="#js">Bestil nu</a></dd>
+        </div>
+
+       <!--    <a href="#" class="" data-dropdown="drop"><i class="fa fa-bars"></i></a>
+      <ul id="drop" class="f-dropdown" data-dropdown-content>
+        <li><a href="#">This is a link</a></li>
+        <li><a href="#">This is another</a></li>
+        <li><a href="#">Yet another</a></li>
+      </ul> -->
       </dl>
     </div>
+  </div>
 <!-- END -->
 
 
@@ -57,7 +64,7 @@
                </label>
             </div>
             <div class="large-4 columns">
-               <label>Age
+               <label>Birthdate
                   <input type="date" placeholder="" />
                </label>
             </div>
@@ -115,17 +122,41 @@
    </div>
 </div>
 
+<div class="part4">
+  <a name="spec"></a>
+  <div data-magellan-destination="spec"></div>
+  <div class="part4-content row">
+    <div class="part4-develop medium-4 columns">   
+      <h3>Specifikationer</h3>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+      <ul>
+        <li>Opløsning tilsvarende et 25" skærm</li>
+        <li>Video 720p &amp; Kamera 5 MP</li>
+        <li>16 gb Flash memory</li>
+        <li>WiFi &amp; Bluetooth</li>
+      </ul>
+      <a class="button radius" href="#">Order now</a>
+    </div>
+    <div class="part4-glasses medium-7 columns">
+      <img src="images/glasses1.png" alt="Google Glass">
+    </div>
+  </div>
+</div>
+
 
 
 <footer class="footer">
-  <a href="#"><i class="fa fa-google-plus-square"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-facebook-square"></i></a>
-  <a href="#"><i class="fa fa-instagram"></i></a>
-  <a class="privacyandterms" href="#">Privacy &amp; Terms</a>
-  <section class="footer-right">
-  <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
-  </section>
+  <div class="row medium-12 columns">
+    <a href="https://plus.google.com/+GoogleGlass/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+    <a href="https://twitter.com/googleglass" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.facebook.com/GoogleGlass?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+    <a href="http://instagram.com/googleglass" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="http://youtube.com"><i class="fa fa-youtube" target="_blank"></i></a>
+    <a class="privacyandterms" href="#" target="_blank">Beskyttelse &amp; Vilkår</a>
+    <div class="footer-right">
+    <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
+    </div>
+  </div>
 </footer>
 
 
