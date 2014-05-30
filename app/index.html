@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation project</title>
+    <meta description="Glasses are for you">
+    <title>Google Glass</title>
     <!-- build:css css/libraries.min.css -->
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <!-- bower:css -->
@@ -22,104 +23,152 @@
 
 <!--   navigation bar -->
     <div data-magellan-expedition="fixed">
-      <dl class="sub-nav row">
-        <section class="left-nav">
-          <dd data-magellan-arrival="glass"><a href="#glass"><img class="google-logo" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85"><h1 class="logo">Google Glass</h1></a></dd>
-        </section>
-        <section class="right-nav">
-          <dd data-magellan-arrival="glass"><a href="#glass">What is Glass</a></dd>
-          <dd data-magellan-arrival="features"><a href="#features">Features</a></dd>
-          <dd data-magellan-arrival="develop"><a href="#develop">Develop for Glass</a></dd>
-          <dd data-magellan-arrival="spec"><a href="#spec">Specifications</a></dd>
-          <dd data-magellan-arrival="js"><a class="button  radius" href="#js">Order now</a></dd>
-        </section>
+      <div class="row">
+      <dl class="sub-nav">
+        <dd data-magellan-arrival="glass"><a href="#"><img id="glass-logo medium-7" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85" alt="Google Glass logo"></a></dd>
+        <div class="large-offset-5 hide-for-medium-down">
+          <dd data-magellan-arrival="glass"><a href="#glass">Hvad er Google Glass</a></dd>
+          <dd data-magellan-arrival="features"><a href="#features">Funktioner</a></dd>
+          <dd data-magellan-arrival="develop"><a href="#develop">Udvikler</a></dd>
+          <dd data-magellan-arrival="spec"><a href="#spec">Specifikationer </a></dd>
+          <dd data-magellan-arrival="js"><a class="button radius" href="#js">Bestil nu</a></dd>
+        </div>
+
+       <!--    <a href="#" class="" data-dropdown="drop"><i class="fa fa-bars"></i></a>
+      <ul id="drop" class="f-dropdown" data-dropdown-content>
+        <li><a href="#">This is a link</a></li>
+        <li><a href="#">This is another</a></li>
+        <li><a href="#">Yet another</a></li>
+      </ul> -->
       </dl>
     </div>
+  </div>
 <!-- END -->
 
   <div class="part1 row">
-      <a name="glass"></a>
-      <div data-magellan-destination="glass"></div>
-       
+        <a name="glass"></a>
+          <dd data-magellan-arrival="glass">
         <div class="row">
-          <iframe class="large-8 columns youtube" height="550"   
+          <div class="row empty-1"></div>
+          <iframe class="medium-8 large-8 columns youtube" height="550" alt="Google Glass"  
           src="//www.youtube.com/embed/PsO6ZnUZI0g" 
           frameborder="0" allowfullscreen></iframe>
-
-          <div class="large-3 columns end">
-            <h2>What is Glass</h2>
-            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. </p>
-            <a class="button radius" href="#">Explore more</a>
-          </div>
+        <div class="part1-text medium-4 large-3 columns end">
+          <h2>Hvad er Glass?</h2>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. </p>
+          <a class="button radius" href="#">Udforsk mere</a>
+        </div>
         </div>
   </div>
 
   </div>
 
-  <div class="part2">
+<div class="part2">
     <a name="features"></a>
     <div data-magellan-destination="features"></div>
 
-<ul class="orbit-content" data-orbit data-options="timer:false">
-  <li data-orbit-slide="headline-1">
-    <div class="part2-content large-3 large-offset-8 columns row">   
-      <h3>Adventure</h3>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+  <ul class="orbit-content" data-orbit data-options="timer:false">
+    <li data-orbit-slide="headline-1">
+      <img class="bg-slide" src="images/concert.jpg" alt="Google Glass">
+      <div class="empty-1"></div>
+      <div class="row">
+        <div class="part2-content medium-4 columns">   
+          <h3>Social</h3>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+        </div>
+      </div>
+    </li>
+    <li data-orbit-slide="headline-2">
+         <img class="bg-slide" src="images/active.jpg" alt="Google Glass">
+      <div class="empty-1"></div>
+      <div class="row">
+        <div class="part2-content medium-4 columns">   
+          <h3>Active</h3>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+        </div>
+      </div>
+    </li>
+    <li data-orbit-slide="headline-3">
+         <img class="bg-slide" src="images/travel.jpg" alt="Google Glass">
+      <div class="empty-1"></div>
+      <div class="row">
+        <div class="part2-content medium-4 columns">   
+          <h3>Traveling</h3>
+          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+        </div>
+      </div>
+    </li>
+    <div class="part2-nav button-group button-bar radius">
+      <a data-orbit-link="headline-1" class="button small">
+        Social
+      </a>
+      <a data-orbit-link="headline-2" class="button small">
+        Active
+      </a>
+      <a data-orbit-link="headline-3" class="button small">
+        Travel
+      </a>
     </div>
-    <img class="bg-slide" src="images/cat1.jpg">
-  </li>
-  <li data-orbit-slide="headline-2">
-    <div class="part2-content large-3 large-offset-8 columns row">   
-      <h3>Social</h3>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
-    </div>
-    <img class="bg-slide" src="images/cage1.jpg">
-  </li>
-  <li data-orbit-slide="headline-3">
-     <div class="part2-content large-3 large-offset-8 columns row">   
-      <h3>Travel</h3>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
-    </div>
-    <img class="bg-slide" src="images/murray.jpg">
-  </li>
-  <div class="part2-nav button-group radius">
-<a data-orbit-link="headline-1" class="button small">
-  Social
-</a>
-<a data-orbit-link="headline-2" class="button small">
-  Active
-</a>
-<a data-orbit-link="headline-3" class="button small">
-  Travel
-</a>
+  </ul>
 </div>
-</ul>
 
-
-
-  </div>
-
+<div class="empty-2"></div>
 
   <div class="part3">
     <a name="develop"></a>
     <div data-magellan-destination="develop"></div>
+    <div class="empty-1"></div>
+    <div class="part3-content row">
+    <div class="part3-develop medium-3 columns">   
+      <h3>Udvikle til Glass</h3>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+    </div>
+
+    <div class="part3-sydtrafik medium-6 large-pull-1 large-5 columns">  
+      <ul>
+        <li class="clock"><img class="sydtrafik-logo" src="images/sydtrafik.png" alt="Google Glass">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:37</li>
+        <li>235 Roskildevej - Nørregade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 7 min</li>
+        <li>241 Roskildevej - Ågade - Nørregade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 15 min</li>
+        <li>237 Roskildevej - Ågade - Nørregade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 21 min</li>
+        <li>235 Roskildevej - Nørrade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 35 min</li>
+      </ul>
+    </div>
   </div>
+</div>
   <div class="part4">
-    <a name="spec"></a>
+      <a name="spec"></a>
     <div data-magellan-destination="spec"></div>
+    <div class="part4-content row">
+      <div class="part4-develop medium-4 columns">   
+       <h3>Specifikationer</h3>
+        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+        <ul>
+          <li>Opløsning tilsvarende et 25" skærm</li>
+          <li>Video 720p &amp; Kamera 5 MP</li>
+          <li>16 gb Flash memory</li>
+          <li>WiFi &amp; Bluetooth</li>
+        </ul>
+        <a class="button radius" href="#">Order now</a>
+      </div>
+      <div class="part4-glasses medium-7 columns">
+        <img src="images/glasses1.png" alt="Google Glass">
+      </div>
+    </div>
   </div>
 
 
-<footer class="footer row">
-
-  <a href="#"><i class="fa fa-google-plus-square"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-facebook-square"></i></a>
-  <a href="#"><i class="fa fa-instagram"></i></a>
-  <a class="privacyandterms" href="#">Privacy &amp; Terms</a>
-  <section class="footer-right">
-  <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
-  </section>
+<footer class="footer">
+  <div class="row medium-12 columns">
+    <a href="https://plus.google.com/+GoogleGlass/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+    <a href="https://twitter.com/googleglass" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.facebook.com/GoogleGlass?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+    <a href="http://instagram.com/googleglass" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="http://youtube.com"><i class="fa fa-youtube" target="_blank"></i></a>
+    <a class="privacyandterms" href="#" target="_blank">Beskyttelse &amp; Vilkår</a>
+    <div class="footer-right">
+    <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
+    </div>
+  </div>
 </footer>
 
 

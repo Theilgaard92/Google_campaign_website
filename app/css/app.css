@@ -417,7 +417,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 81.25rem;
+  max-width: 75rem;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -4143,7 +4143,7 @@ meta.foundation-mq-topbar {
     .top-bar.expanded {
       background: #333; }
   .contain-to-grid .top-bar {
-    max-width: 81.25rem;
+    max-width: 75rem;
     margin: 0 auto;
     margin-bottom: 0; }
   .top-bar-section {
@@ -5061,6 +5061,13 @@ th.hide-for-touch {
 h2 {
   line-height: 0.7; }
 
+.empty-1 {
+  height: 4.375rem; }
+
+.empty-2 {
+  height: 0.0625rem;
+  position: relative; }
+
 .button {
   border: 1px solid #34a7ff;
   background-color: #34a7ff;
@@ -5069,10 +5076,6 @@ h2 {
     background-color: white;
     border: 1px solid #34a7ff;
     color: #34a7ff !important; }
-
-.sub-nav dt, .sub-nav dd, .sub-nav li {
-  margin-left: 8px;
-  margin-right: 8px; }
 
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
   background-color: #fff;
@@ -5084,8 +5087,7 @@ h2 {
 
 .sub-nav dt a, .sub-nav dd a, .sub-nav li a {
   padding: 0px;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem; }
+  margin-right: 1rem; }
 
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
   padding: 0px;
@@ -5095,27 +5097,17 @@ h2 {
   border-bottom: 1px solid #34a7ff; }
 
 .sub-nav {
-  line-height: 4.5rem;
-  margin-right: auto;
-  margin-left: auto; }
-  .sub-nav .right-nav {
-    float: right; }
-  .sub-nav .left-nav .logo {
-    display: none; }
+  line-height: 72px; }
 
 .part1 {
-  position: relative;
-  top: 5%;
   height: 90%;
-  max-height: 700px; }
-  .part1 .youtube {
-    padding-left: 16px; }
+  max-height: 800px; }
 
 .part2 {
   height: 90%;
   max-height: 700px; }
   .part2 .slide {
-    max-height: 680px; }
+    min-height: 700px; }
   .part2 .orbit-bullets {
     display: none; }
   .part2 .orbit-slide-number {
@@ -5128,45 +5120,68 @@ h2 {
     text-align: center;
     position: relative;
     z-index: 2;
-    top: 90%; }
+    top: 80%; }
   .part2 .bg-slide {
-    position: relative;
-    z-index: 1; }
+    position: inherit;
+    width: auto;
+    height: auto; }
   .part2 .part2-content {
-    position: absolute;
+    position: relative;
     z-index: 99;
-    top: 10%;
     color: white; }
     .part2 .part2-content h3 {
       color: white;
       line-height: 1; }
   .part2 .button {
     font-size: 0.95rem;
-    color: #737373 !important;
+    color: #eee !important;
     border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 7px 35px !important; }
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 7px 35px !important;
+    margin-left: -5px; }
     .part2 .button:hover {
-      background-color: rgba(255, 255, 255, 0.4);
-      border: 1px solid white;
-      color: #eee !important; }
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 2px solid white;
+      color: #737373 !important; }
 
 .part3 {
-  width: 100%;
-  height: 90%;
-  background: url('../images/cage.jpg') no-repeat center center;
-  max-height: 700px; }
+  position: relative;
+  height: 100%;
+  background: url('../images/bus2.jpg') no-repeat center center;
+  background-size: cover;
+  max-height: 800px; }
+  .part3 .part3-content .part3-sydtrafik {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 0px 5px 10px; }
+    .part3 .part3-content .part3-sydtrafik .clock {
+      font-size: 2.375rem;
+      padding-bottom: 10px; }
+    .part3 .part3-content .part3-sydtrafik ul {
+      list-style: none; }
+      .part3 .part3-content .part3-sydtrafik ul li {
+        line-height: 2;
+        font-weight: 200; }
+    .part3 .part3-content .part3-sydtrafik h3 {
+      color: white; }
 
 .part4 {
-  width: 100%;
+  position: relative;
   height: 90%;
-  background: url('../images/cage.jpg') no-repeat center center;
-  max-height: 700px; }
+  background-color: white no-repeat center center;
+  background-size: cover; }
+  .part4 .part4-develop ul {
+    list-style: square; }
+  .part4 .button {
+    margin-top: 20px; }
+  .part4 .part4-content {
+    position: relative;
+    top: 10%; }
 
 .footer {
   line-height: 4.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem; }
+  border-top: 1px solid #eee;
+  top: 100%; }
   .footer .fa {
     margin-right: 6px;
     color: #d3d3d3;
@@ -5182,3 +5197,16 @@ h2 {
       border-bottom: 1px solid #d5d5d5; }
   .footer .footer-right {
     float: right; }
+
+.glass-form {
+  width: 100%;
+  height: 90%;
+  background: url(../images/form-bg.jpg) no-repeat center center fixed;
+  background-size: cover; }
+  .glass-form .form-box {
+    background: white;
+    max-width: 1048px;
+    margin: 0 auto;
+    padding: 2em; }
+    .glass-form .form-box form {
+      margin: 2rem 0; }
