@@ -5178,12 +5178,6 @@ h2 {
     position: relative;
     top: 10%; }
 
-[data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: rgba(255, 255, 255, 0.9); }
-
-.sub-nav dd.active a {
-  background: none; }
-
 .footer {
   line-height: 4.5rem;
   border-top: 1px solid #eee;
