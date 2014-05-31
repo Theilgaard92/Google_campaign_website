@@ -9,10 +9,6 @@ h2{
 .empty-1{
 	height:rem-calc(70);
 }
-.empty-2{
-	height: rem-calc(1);
-	position: relative;
-}
 
 .button {
 	border: 1px solid $secondary-color;
@@ -36,7 +32,7 @@ h2{
 .sub-nav dt a, .sub-nav dd a, .sub-nav li a {
 	padding: 0px;
 	// margin-left: 1rem;
-	margin-right: 1rem;
+	// margin-right: 1rem;
 }
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
 	padding: 0px;
@@ -45,26 +41,13 @@ h2{
 .sub-nav .right-nav dt a:hover, .sub-nav .right-nav dd a:hover, .sub-nav .right-nav li a:hover {
 	border-bottom: 1px solid $secondary-color;
 }
-
 	.sub-nav {
 		line-height: 72px;
 	}
-
-// 		.glass-logo {
-//    position: absolute;
-//    top: 50%;
-//    width: 85px;
-//    height: 500px;
-//    margin-top: -250px; /* Half the height */
-//    margin-left: 0px; /* Half the width */
-// }
 .part1 {
 	height: 90%;
 	max-height: 800px;
 }
-
-
-
 .part2 {
 	height: 90%;
 	max-height: 700px;
@@ -93,20 +76,16 @@ h2{
 		position: inherit;
 		width: auto;
 		height: auto;
-		// min-height: 699px;
 	}
 	.part2-content{
 		h3{
 			color: white;
 			line-height: 1;
-			
-
 		}
+		// padding-left: 0px;
 		position: relative;
 		z-index: 99;
 		color: white;
-		// background-color: rgba(0,0,0,0.3)
-
 	}
 	.button {
 	font-size: 0.95rem;
@@ -114,15 +93,14 @@ h2{
 	// color: #737373 !important;
 	border: 1px solid white;
 	background-color: rgba(255,255,255,0.4);
-	//padding: 7px 35px !important;
+	padding: 5px 35px !important;
 	margin-left: -5px;
 	&:hover {
 		background-color: rgba(255,255,255,0.8);
 		border: 2px solid white;
 		color: #737373 !important;
 		}
-}
-
+	}
 }
 .part3 {
 	position: relative;
@@ -131,6 +109,9 @@ h2{
 	background-size: cover;
 	max-height: 800px;
 	.part3-content{
+		.part3-develop {
+			padding-left: 0px;
+		}
 		.part3-sydtrafik {
 			color: white;
 			background-color: rgba(0,0,0,0.7);
@@ -159,15 +140,14 @@ h2{
 	background-color: white no-repeat center center;
 	background-size: cover;
 	// max-height: 800px;
-	.part4-develop {
+	.part4-spec {
+		padding-left: 0px;
 		ul {
 			list-style: square;
-			// padding-left: rem-calc(20);
 		}
 	}
 	.button{
 		margin-top: 20px;
-		// float: right;
 	}
 	.part4-content {
 		position: relative;
@@ -185,33 +165,30 @@ h2{
 }
 // TOMS OVER AND OUT!
 
-
-.footer {
-	line-height: rem-calc(72);
+.footer-border {
 	border-top: 1px solid #eee;
-	top: 100%;
-	.fa {
-		margin-right: 6px;
-		color: #d3d3d3;
-		font-size: rem-calc(17);
-		&:hover{
-			color: $secondary-color;
+	.footer {
+		line-height: rem-calc(72);
+		top: 100%;
+		.fa {
+			margin-right: 6px;
+			color: #d3d3d3;
+			font-size: rem-calc(17);
+			&:hover{
+				color: $secondary-color;
+			}
 		}
-	}
-	.privacyandterms{
-		margin-left: 12px;
-		color: #aaa;
-		font-size: rem-calc(11);
-		text-align: center;
-		&:hover{
-			border-bottom: 1px solid #d5d5d5;
+		.privacyandterms{
+			padding-left: 12px;
+			color: #aaa;
+			font-size: rem-calc(11);
+			text-align: center;
+			&:hover{
+				border-bottom: 1px solid #d5d5d5;
+			}
 		}
-	}
-	.footer-right{
-		float:right;
 	}
 }
-
 
 
 

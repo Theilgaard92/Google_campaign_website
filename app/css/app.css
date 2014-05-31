@@ -5064,10 +5064,6 @@ h2 {
 .empty-1 {
   height: 4.375rem; }
 
-.empty-2 {
-  height: 0.0625rem;
-  position: relative; }
-
 .button {
   border: 1px solid #34a7ff;
   background-color: #34a7ff;
@@ -5087,8 +5083,7 @@ h2 {
   background-color: #fff; }
 
 .sub-nav dt a, .sub-nav dd a, .sub-nav li a {
-  padding: 0px;
-  margin-right: 1rem; }
+  padding: 0px; }
 
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
   padding: 0px;
@@ -5138,6 +5133,7 @@ h2 {
     color: #eee !important;
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 35px !important;
     margin-left: -5px; }
     .part2 .button:hover {
       background-color: rgba(255, 255, 255, 0.8);
@@ -5150,6 +5146,8 @@ h2 {
   background: url('../images/bus2.jpg') no-repeat center center;
   background-size: cover;
   max-height: 800px; }
+  .part3 .part3-content .part3-develop {
+    padding-left: 0px; }
   .part3 .part3-content .part3-sydtrafik {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -5170,8 +5168,10 @@ h2 {
   height: 90%;
   background-color: white no-repeat center center;
   background-size: cover; }
-  .part4 .part4-develop ul {
-    list-style: square; }
+  .part4 .part4-spec {
+    padding-left: 0px; }
+    .part4 .part4-spec ul {
+      list-style: square; }
   .part4 .button {
     margin-top: 20px; }
   .part4 .part4-content {
@@ -5184,25 +5184,24 @@ h2 {
 .sub-nav dd.active a {
   background: none; }
 
-.footer {
-  line-height: 4.5rem;
-  border-top: 1px solid #eee;
-  top: 100%; }
-  .footer .fa {
-    margin-right: 6px;
-    color: #d3d3d3;
-    font-size: 1.0625rem; }
-    .footer .fa:hover {
-      color: #34a7ff; }
-  .footer .privacyandterms {
-    margin-left: 12px;
-    color: #aaa;
-    font-size: 0.6875rem;
-    text-align: center; }
-    .footer .privacyandterms:hover {
-      border-bottom: 1px solid #d5d5d5; }
-  .footer .footer-right {
-    float: right; }
+.footer-border {
+  border-top: 1px solid #eee; }
+  .footer-border .footer {
+    line-height: 4.5rem;
+    top: 100%; }
+    .footer-border .footer .fa {
+      margin-right: 6px;
+      color: #d3d3d3;
+      font-size: 1.0625rem; }
+      .footer-border .footer .fa:hover {
+        color: #34a7ff; }
+    .footer-border .footer .privacyandterms {
+      padding-left: 12px;
+      color: #aaa;
+      font-size: 0.6875rem;
+      text-align: center; }
+      .footer-border .footer .privacyandterms:hover {
+        border-bottom: 1px solid #d5d5d5; }
 
 .glass-form {
   width: 100%;
