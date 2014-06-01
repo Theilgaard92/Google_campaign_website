@@ -18,6 +18,7 @@
     <!-- build:js js/vendor/modernizr.min.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <link href="http://www.google.com/glass/start/assets/img/favicon.png" rel="icon">
   </head>
   <body>
 
@@ -27,21 +28,14 @@
     <div data-magellan-destination="glass"></div>
       <div class="row">
       <dl class="sub-nav medium-12 colummns">
-        <dd data-magellan-arrival="glass"><a href="#"><img id="glass-logo right" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85" alt="Google Glass logo"></a></dd>
-        <div class="right">
+        <dd data-magellan-arrival="glass"><a href="#"><img id="glass-logo right" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85" alt="Google Glass logo"><h1>Google Glass</h1></a></dd>
+        <div class="right hide-for-small">
           <dd data-magellan-arrival="glass"><a href="#glass">Hvad er Google Glass</a></dd>
           <dd data-magellan-arrival="features"><a href="#features">Funktioner</a></dd>
           <dd data-magellan-arrival="develop"><a href="#develop">Udvikler</a></dd>
           <dd data-magellan-arrival="spec"><a href="#spec">Specifikationer </a></dd>
-          <dd data-magellan-arrival="js"><a class="button radius" href="form.html">Bestil nu</a></dd>
+          <dd data-magellan-arrival="#"><a class="button radius" href="form.html">Bestil nu</a></dd>
         </div>
-
-       <!--    <a href="#" class="" data-dropdown="drop"><i class="fa fa-bars"></i></a>
-      <ul id="drop" class="f-dropdown" data-dropdown-content>
-        <li><a href="#">This is a link</a></li>
-        <li><a href="#">This is another</a></li>
-        <li><a href="#">Yet another</a></li>
-      </ul> -->
       </dl>
     </div>
   </div>
@@ -51,12 +45,12 @@
         <div class="row">
           <div class="row empty-1"></div>
           <iframe class="medium-8 large-8 columns youtube" height="444" alt="Google Glass"  
-          src="//www.youtube.com/embed/PsO6ZnUZI0g" 
+          src="//www.youtube.com/embed/ZAAUqb_PfLM" 
           frameborder="0" allowfullscreen></iframe>
         <div class="part1-text medium-4 large-4 columns">
-          <h2>Hvad er Glass?</h2>
-          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. </p>
-          <a class="button radius" href="#">Udforsk mere</a>
+          <h2>Hvad er Google Glass</h2>
+          <p>Google Glass er interaktive briller, som styres via din stemmekommando. Med Glass kan du sende beskeder, tage billeder, optage film, finde vej med GPS og meget mere. Glass er hånd-frit og giver dig bevægelse frihed. </p>
+          <dd data-magellan-arrival="features"><a class="button radius" href="#features">Udforsk mere</a></dd>
         </div>
       </div>
   </div>
@@ -68,44 +62,53 @@
     <div data-magellan-destination="features"></div>
   <ul class="orbit-content" data-orbit data-options="timer:false">
     <li data-orbit-slide="headline-1">
-      <img class="bg-slide" src="images/concert1.jpg" alt="Google Glass">
+          <img class="bg-slide hide-for-small" src="images/active1.jpg" alt="Google Glass">
+          <img class="bg-slide hide-for-medium" src="images/active_mobile.jpg" alt="Google Glass">
       <div class="empty-1"></div>
       <div class="row">
-        <div class="part2-content left medium-4">   
-          <h3>Social</h3>
-          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+        <div class="part2-content medium-4 small-8 columns">   
+          <h3>Aktiv</h3>
+          <p>Med Google Glass app’en Strava Run eller Strave Cycle kan du måle dine ruter uanset om du sidder på en cykel eller ude og løbe. Med Glass kan du analysere dine ture og udfordre dine venner, alt imens du har hænderne på styret og øje på trafikken.  
+          <br /><br />
+          LynxFit med Google Glass er din personlige træner, som hjælper dig igennem træningen og holder styr på dine personlige mål. 
+          <br /><br />
+          Google Glass GolfSight og Swingbyte, kan hjælpe med at forbedre dit golfspil eller bare holde styr på din bold så den ikke bliver væk. GolfSight tilbyder information omkring golfbanen og meget mere. </p>
         </div>
       </div>
     </li>
     <li data-orbit-slide="headline-2">
-         <img class="bg-slide" src="images/active1.jpg" alt="Google Glass">
+        <img class="bg-slide hide-for-small" src="images/concert1.jpg" alt="Google Glass">
+        <img class="bg-slide hide-for-medium" src="images/concert_mobile.jpg" alt="Google Glass">
       <div class="empty-1"></div>
       <div class="row">
-        <div class="part2-content medium-4 columns">   
-          <h3>Active</h3>
-          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+        <div class="part2-content left medium-4 small-8 ">   
+          <h3>Social</h3>
+          <p>Google Glass gør det muligt for dig, at være tæt på dine venner og familie hele tiden. Med en enkel stemmekommando kan du invitere dine venner eller familie til at deltage i Hangout, hvor i kan se hinanden eller hvad i laver. Med Google Glass går du aldrig glip af noget. </p>
         </div>
       </div>
     </li>
     <li data-orbit-slide="headline-3">
-         <img class="bg-slide" src="images/travel1.jpg" alt="Google Glass">
+         <img class="bg-slide hide-for-small" src="images/travel1.jpg" alt="Google Glass">
+         <img class="bg-slide hide-for-medium" src="images/travel_mobile.jpg" alt="Google Glass">
       <div class="empty-1"></div>
       <div class="row">
-        <div class="part2-content medium-4 columns">   
-          <h3>Traveling</h3>
-          <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</p>
+        <div class="part2-content medium-4 small-8 columns">   
+          <h3>Rejse</h3>
+          <p>Google Glass gør det nemt for dig at tage billeder, optage film og finde vej når du er ude på eventyr. Du kan uploade dine oplevelser direkte til dit social media og dele det med vennerne. Glass gør det nemmere end nogensinde at fange øjeblikket.</p>
         </div>
       </div>
     </li>
-    <div class="part2-nav button-group button-bar radius">
+  </ul>
+  <ul class="part2-nav">
+      <div class="button-group button-bar radius">
       <a data-orbit-link="headline-1" class="button small">
-        Social
+        Aktiv
       </a>
       <a data-orbit-link="headline-2" class="button small">
-        Active
+        Social
       </a>
       <a data-orbit-link="headline-3" class="button small">
-        Travel
+        Rejse
       </a>
     </div>
   </ul>
@@ -118,12 +121,8 @@
     <div data-magellan-destination="develop"></div>
     <div class="empty-1"></div>
     <div class="part3-content row">
-    <div class="part3-develop medium-3 columns">   
-      <h3>Udvikle til Glass</h3>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
-    </div>
 
-    <div class="part3-sydtrafik medium-6 large-5 columns">  
+    <div class="part3-sydtrafik medium-5 small-10 right columns">  
       <ul>
         <li class="clock"><img class="sydtrafik-logo" src="images/sydtrafik.png" alt="Google Glass">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:37</li>
         <li>235 Roskildevej - Nørregade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 7 min</li>
@@ -131,6 +130,11 @@
         <li>237 Roskildevej - Ågade - Nørregade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 21 min</li>
         <li>235 Roskildevej - Nørrade &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 35 min</li>
       </ul>
+    </div>
+      <div class="part3-develop small-6 medium-3 left columns">   
+      <h3>Udvikle til Glass</h3>
+      <p>Google Glass er åben for udviklere, så du kan selv udvikle dine egne applikationer til Glass. Det eneste vi gerne vil have er, at du følger væres design mønstre. Det du skal er, at finde ud af hvad for et mønster du skal bruge, for så har vi den API der passer til dig. Kan du ikke vente med at komme igen? så start nu.</p>
+      <a class="button radius" href="https://developers.google.com/glass/"target="_blank">Start nu</a>
     </div>
   </div>
 </div>
@@ -140,14 +144,15 @@
     <div class="part4-content row">
       <div class="part4-spec medium-4 columns">   
        <h3>Specifikationer</h3>
-        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+        <p>Google Glass kan tilpasses så de sidder helt rigtigt på dig.</p>
         <ul>
           <li>Opløsning tilsvarende et 25" skærm</li>
           <li>Video 720p &amp; Kamera 5 MP</li>
           <li>16 gb Flash memory</li>
-          <li>WiFi &amp; Bluetooth</li>
+          <li>Wi-Fi 802.11b/g</li>
+          <li>Bluetooth</li>
         </ul>
-        <a class="button radius" href="#">Order now</a>
+        <a class="button radius" href="form.html">Bestil nu</a>
       </div>
       <div class="part4-glasses medium-7 columns">
         <img src="images/glasses1.png" alt="Google Glass">
@@ -156,21 +161,22 @@
   </div>
 
 <div class="footer-border">
-  <footer class="footer row">
-    <div class="left">
-      <a href="https://plus.google.com/+GoogleGlass/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-      <a href="https://twitter.com/googleglass" target="_blank"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.facebook.com/GoogleGlass?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
-      <a href="http://instagram.com/googleglass" target="_blank"><i class="fa fa-instagram"></i></a>
-      <a href="http://youtube.com"><i class="fa fa-youtube" target="_blank"></i></a>
-      <a class="privacyandterms" href="#" target="_blank">Beskyttelse &amp; Vilkår</a>
-    </div>
-      <div class="footer-right right">
-      <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
+  <footer class="footer large-12 columns">
+    <div class="row">
+      <div class="left">
+        <a href="https://plus.google.com/+GoogleGlass/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+        <a href="https://twitter.com/googleglass" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/GoogleGlass?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+        <a href="http://instagram.com/googleglass" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="http://youtube.com"><i class="fa fa-youtube" target="_blank"></i></a>
+        <a class="privacyandterms" href="#" target="_blank">Beskyttelse &amp; Vilkår</a>
       </div>
+        <div class="footer-right right">
+        <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
+        </div>
+    </div>
   </footer>
 </div>
-
 
     <!-- build:js js/vendor/libraries.min.js -->
     <!-- bower:js -->
