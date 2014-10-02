@@ -8,28 +8,25 @@
     <link rel="stylesheet" href="css/libraries.min.css"/>
     <link rel="stylesheet" href="css/app.min.css"/>
     <script src="js/vendor/modernizr.min.js"></script>
+    <link href="http://www.google.com/glass/start/assets/img/favicon.png" rel="icon">
   </head>
   <body>
 
+
 <!--   navigation bar -->
     <div data-magellan-expedition="fixed">
+      <a name="glass"></a>
+    <div data-magellan-destination="glass"></div>
       <div class="row">
-      <dl class="sub-nav">
-        <dd data-magellan-arrival="glass"><a href="index.html"><img id="glass-logo medium-7" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85" alt="Google Glass logo"></a></dd>
-        <div class="large-offset-5 hide-for-medium-down">
+      <dl class="sub-nav medium-12 colummns">
+        <dd data-magellan-arrival="glass"><a href="index.html"><img id="glass-logo right" src="http://www.google.com/glass/start/assets/img/glass.svg" width="85" alt="Google Glass logo"></a></dd>
+        <div class="right">
           <dd data-magellan-arrival="glass"><a href="#glass">Hvad er Google Glass</a></dd>
           <dd data-magellan-arrival="features"><a href="#features">Funktioner</a></dd>
           <dd data-magellan-arrival="develop"><a href="#develop">Udvikler</a></dd>
           <dd data-magellan-arrival="spec"><a href="#spec">Specifikationer </a></dd>
-          <dd data-magellan-arrival="js"><a class="button radius" href="#js">Bestil nu</a></dd>
+          <dd data-magellan-arrival="js"><a class="button radius" href="form.html">Bestil nu</a></dd>
         </div>
-
-       <!--    <a href="#" class="" data-dropdown="drop"><i class="fa fa-bars"></i></a>
-      <ul id="drop" class="f-dropdown" data-dropdown-content>
-        <li><a href="#">This is a link</a></li>
-        <li><a href="#">This is another</a></li>
-        <li><a href="#">Yet another</a></li>
-      </ul> -->
       </dl>
     </div>
   </div>
@@ -39,23 +36,23 @@
 <div class="glass-form">
    <div class="form-box">
       <div class="row">
-         <h2>Join the Glass community in Denmark</h2>
-         <p>We don't see them too much, but one of the useful form elements included with Foundation is. This is used as a wrapper right inside the form element.</p>
+         <h2>Bliv en del af fremtiden med Google Glass</h2>
+         <p>Vil du være med til at forme fremtiden? Hvis du bor i Danmark og er over 18 år, så kan du være med. Udfyld dine informationer forneden og bestil dine Glass nu.</p>
       </div>
       <form action="">
          <div class="row">
             <div class="large-4 columns">
-               <label>First name
+               <label>Fornavn
                   <input type="text" placeholder="ex. Daniel" />
                </label>
             </div>
             <div class="large-4 columns">
-               <label>Last name
-                  <input type="text" placeholder="ex. Gaylord" />
+               <label>Efternavn
+                  <input type="text" placeholder="ex. Hansen" />
                </label>
             </div>
             <div class="large-4 columns">
-               <label>Birthdate
+               <label>Fødselsdag
                   <input type="date" placeholder="" />
                </label>
             </div>
@@ -63,17 +60,17 @@
 
          <div class="row">
             <div class="large-4 columns">
-               <label>Phone
+               <label>Telefon
                   <input type="text" placeholder="ex. +45 5055533" />
                </label>
             </div>
             <div class="large-4 columns">
-               <label>Email
-                  <input type="text" placeholder="ex. gaylord@email.com" />
+               <label>E-mail
+                  <input type="text" placeholder="ex. danielhansen@email.com" />
                </label>
             </div>
             <div class="large-4 columns">
-               <label>Why are you interested in Glass?
+               <label>Hvorfor er du interesseret i Google Glass?
                   <select name="" id="">
                      <option value=""></option>
                      <option value="">Using it for fitness</option>
@@ -88,67 +85,69 @@
 
          <div class="row">
             <div class="large-4 columns">
-               <label>Shipping adress
-                  <input type="text" placeholder="ex. Haderslevej 25, 21" />
+               <label>Modtager adresse
+                  <input type="text" placeholder="ex. Haderslevej 25" />
                </label>
             </div>
             <div class="large-4 columns">
-               <label>City
-                  <input type="text" placeholder="ex. Kolding" />
+               <label>By
+                  <input type="text" placeholder="ex. København" />
                </label>
             </div>
             <div class="large-4 columns">
-               <label>ZIP code
-                  <input type="text" placeholder="ex. 6000" />
+               <label>Postnummer
+                  <input type="text" placeholder="ex. 2000" />
                </label>
             </div>
          
          </div>
       </form>
-      <p class="subheader"><span style="color:red;">*</span>You have to be at least 18 years old</p>
-      <p>We don't see them too much, but one of the useful form elements included with Foundation is. This is used as a wrapper right inside the form element.</p>
+      <p class="subheader"><span style="color:red;">*</span>Minimum 18 år.</p>
+      <p></p>
       <button type="submit" class="radius small right button">
-         Buy Glass
+         Bestil nu
       </button>
    </div>
 </div>
 
-<div class="part4">
-  <a name="spec"></a>
-  <div data-magellan-destination="spec"></div>
-  <div class="part4-content row">
-    <div class="part4-develop medium-4 columns">   
-      <h3>Specifikationer</h3>
-      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
-      <ul>
-        <li>Opløsning tilsvarende et 25" skærm</li>
-        <li>Video 720p &amp; Kamera 5 MP</li>
-        <li>16 gb Flash memory</li>
-        <li>WiFi &amp; Bluetooth</li>
-      </ul>
-      <a class="button radius" href="#">Order now</a>
-    </div>
-    <div class="part4-glasses medium-7 columns">
-      <img src="images/glasses1.png" alt="Google Glass">
+ <div class="part4">
+    <a name="spec"></a>
+    <div data-magellan-destination="spec"></div>
+    <div class="part4-content row">
+      <div class="part4-spec medium-4 columns">   
+       <h3>Specifikationer</h3>
+        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+        <ul>
+          <li>Opløsning tilsvarende et 25" skærm</li>
+          <li>Video 720p &amp; Kamera 5 MP</li>
+          <li>16 gb Flash memory</li>
+          <li>WiFi &amp; Bluetooth</li>
+        </ul>
+        <a class="button radius" href="#">Bestil nu</a>
+      </div>
+      <div class="part4-glasses medium-7 columns">
+        <img src="images/glasses1.png" alt="Google Glass">
+      </div>
     </div>
   </div>
+
+
+
+<div class="footer-border">
+  <footer class="footer row">
+    <div class="left">
+      <a href="https://plus.google.com/+GoogleGlass/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+      <a href="https://twitter.com/googleglass" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.facebook.com/GoogleGlass?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+      <a href="http://instagram.com/googleglass" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="http://youtube.com"><i class="fa fa-youtube" target="_blank"></i></a>
+      <a class="privacyandterms" href="#" target="_blank">Beskyttelse &amp; Vilkår</a>
+    </div>
+      <div class="footer-right right">
+      <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
+      </div>
+  </footer>
 </div>
-
-
-
-<footer class="footer">
-  <div class="row medium-12 columns">
-    <a href="https://plus.google.com/+GoogleGlass/posts" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-    <a href="https://twitter.com/googleglass" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.facebook.com/GoogleGlass?fref=ts" target="_blank"><i class="fa fa-facebook-square"></i></a>
-    <a href="http://instagram.com/googleglass" target="_blank"><i class="fa fa-instagram"></i></a>
-    <a href="http://youtube.com"><i class="fa fa-youtube" target="_blank"></i></a>
-    <a class="privacyandterms" href="#" target="_blank">Beskyttelse &amp; Vilkår</a>
-    <div class="footer-right">
-    <img class="google" src="http://www.google.com/glass/start/assets/img/google.svg" width="100">
-    </div>
-  </div>
-</footer>
 
 
     <script src="js/vendor/libraries.min.js"></script>
